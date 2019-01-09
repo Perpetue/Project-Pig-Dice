@@ -7,3 +7,6 @@
 ### Setup/Installation Requirements
 git clone https://github.com/Perpetue/Project-Pig-Dice
 Open the index.html file with the browser of your choice
+
+#### Support and contact details
+Please feel free to contact muperpety@gmail.com if you have any issues or questions, ideas or concerns.
