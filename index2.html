@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Project Pig Dice</title>
+        <link href="./css/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Erica+One|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/animate.css">
+    </head>
+    <body>
+        <h1 id="title">Pig Dice game</h1>
+        <div class="container">
+            <div class="row">
+                <div class="player-col col-md-4">
+                    <h2>Player 1</h2>
+                    <hr>
+                    <!-- <form id="player-one-form" action="index.html" method="post"> -->
+                    <div id="player-one-buttons">
+                        <button type="submit" class="btn" name="button" id="player-one-roll">Roll</button>
+                        <button type="submit" class="btn" name="button" id="player-one-stay">Stay</button>
+                    </div>
+                    <!-- </form> -->
+                    <h3>Turn Running Total</h3>
+                    <div id="player-one-running">
+                    </div>
+                    <h3>Total Score:</h3>
+                    <h4><span id="player-one-score"></span></h4>
+                </div><!--Col closes-->
+                <div class="col-md-4">
+                    <div id="dice-image">
+                        <img src="./image/pig.png" id="dice-pic">
+                    </div>
+                    <p><span class="player-one-rolls-one">You rolled a 1!</p>
+                    <p><span class="player-one-rolls-one">Your turn is over.</p></span>
+                    <!-- <p><span class="turn-total"></p> -->
+                    <div id="winner">
+                    </div><!--Winner closes-->
+                </div><!--Middle col closes-->
+                <div class="player-col col-md-4">
+                    <h2>Player 2</h2>
+                    <hr>
+                    <div id="player-two-buttons">
+                        <button type="submit" class="btn" name="button" id="player-two-roll">Roll</button>
+                        <button type="submit" class="btn" name="button" id="player-two-stay">Stay</button>
+                    </div>
+                    <h3>Turn Running Total</h3>
+                    <div id="player-two-running"></div>
+                    <h3>Total Score:</h3>
+                    <h4><span id="player-two-score"></span></h4>
+                </div><!--Col closes-->
+            </div><!--Row closes-->
+        </div><!--Container closes-->
+        <div class="social">
+            <a href="muperpety@gmail.com" class="fa fa-gmail">Gmail</a>
+            <a href="https://www.facebook.com/mhawenimana.perpetue" class="fa fa-facebook"></a>
+            <a href="``" class="fa fa-github"></a>
+            <a href ="https://moringaschool.slack.com/messages/" class ="fa fa-slack"></a> 
+                <!--lisence i am using-->
+            <footer>Copyright@2018 by Perpetue MUHAWENIMANA. All rights reserved.</footer>
+        </div>
+        <script src="./js/jquery-3.3.1.min.js"></script>
+        <script src="./js/scripts.js"></script>
+    </body>
+</html>
