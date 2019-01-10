@@ -1,0 +1,102 @@
+.model{
+        width: 100%;
+        height: 100%;
+        border: 25px solid rgb(173, 193, 206);
+        padding: 10px;
+        font-size: 18px;
+    background-color: lightgreen ;
+    background-size: cover;
+    }
+#top{
+    margin-top: 10%;
+    padding: 2%;
+}
+#play{
+    margin-left: 50%;
+}
+body {
+    text-align: center;
+    background-color: lightgreen;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Erica One', sans-serif;
+    color:white
+  }
+  
+  #title {
+    font-size: 72px;
+  }
+  
+  h2 {
+    font-family: 'Erica One', sans-serif;
+  }
+  
+  h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    margin-top: 2%;
+  }
+  
+  .running-total {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .total-score {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+  }
+  
+  .player-one-rolls-one {
+    font-size: 36px;
+    font-family: 'Erica One', sans-serif;
+    text-align: center;
+    display: none;
+  }
+  
+  .player-col {
+    border: 10px solid  purple;
+    border-radius: 6px;
+    height: 450px;
+    background:#87CEFA;
+  }
+  
+  .btn {
+    height: 60px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    color: #fff;
+  }
+  
+  #winner {
+    display: none;
+    font-family: 'Erica One';
+    font-size: 72px;
+  }
+  
+  #player-two-buttons {
+    display: none;
+  }
+  .footer{
+    text-align: center;
+  }
+  .social{
+    text-align:right;
+    background-color:	#87CEFA;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .social footer{
+   text-align: center; 
+  }
+  
