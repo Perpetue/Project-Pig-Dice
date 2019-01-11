@@ -4,19 +4,16 @@
         border: 25px solid rgb(173, 193, 206);
         padding: 10px;
         font-size: 18px;
-    background-color: lightgreen ;
+    background-color: rgb(238, 174, 144) ;
     background-size: cover;
     }
 #top{
     margin-top: 10%;
     padding: 2%;
 }
-#play{
-    margin-left: 50%;
-}
 body {
     text-align: center;
-    background-color: lightgreen;
+    background-color: rgb(238, 174, 144);
   }
   
   img {
@@ -43,6 +40,7 @@ body {
   
   .container {
     margin-top: 2%;
+    padding-left: 2%;
   }
   
   .running-total {
@@ -62,19 +60,21 @@ body {
   }
   
   .player-col {
-    border: 10px solid  purple;
+    border: 10px solid  rgb(128, 51, 0);
     border-radius: 6px;
     height: 450px;
-    background:#87CEFA;
+    background:#F4A460;
   }
   
   .btn {
     height: 60px;
     width: 100px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     margin: 10px;
     color: #fff;
+    border-radius: 100%;
+    background-color: rgb(175, 168, 76);
   }
   
   #winner {
@@ -91,12 +91,23 @@ body {
   }
   .social{
     text-align:right;
-    background-color:	#87CEFA;
+    background-color:	rgb(250, 191, 135);
     margin-top: 60px;
     margin-left: 10px;
     margin-right: 10px;
   }
   .social footer{
    text-align: center; 
+  }
+  p{
+    padding-left: 5%
+  }
+  .button{
+    border-radius: 100%;
+    background-color: rgb(175, 168, 76);
+    margin-left: 50%;
+    text-align: center;
+    font-size: 24px;
+  margin: 4px 2px;
   }
   
