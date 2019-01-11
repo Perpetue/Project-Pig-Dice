@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Project Pig Dice</title>
-    <link href="./css/bootstrap-3.3.7-dist/css/bootstrap.css">
-    <link href="./css/styles.css" >
-</head>
-<body>
-    <h2>Pig Dice Game</h2> 
-    <!--Description of pig dice game-->
-    <p>Pig dice game comes from family of jeopardy dice games. In jeopardy dice games players are allowed to go for bigger gains by taking a risk which also can result in not making any gain at all. The objective of Pig dice game is reach to a certain score before your opponents. Normally the game is played for a score of 100.</p>
-    <!--image-->
-    <img src="./image/N01803_big.jpg">
-    <!--how to play game-->
-    <h3>Game Play</h3>
-    <p>Pig dice game is played with a single six-sided die and players are allowed to make any number of rolls in each turn. After each roll the dice value is added to their score for that turn. </p>
-    <p>After each roll player can decide whether to stop rolling and claim the total turn score or continue rolling. If they roll a 1 then they lose all points scored in a particular turn and turn is then passed to the opponent. This has no impact on their overall score. If players decide to stop rolling,</p> 
-    <p>they get the points scored so far which is added to their overall score.The first player to score 100 points (or any other predetermined score at the beginning of the game) wins the game.Learn Pig dice game by playing for a turn below  (click box below to load the game)</p>
-    <p>Variations:</p>
-    <p>Two-dice Pig:Two-dice Pig is played with two six-sided dice and has following rules</p>
-    <ul>
-        <li>Roll as many times. If none of a dice is a 1, then total is added for the current turn score.</li>
-        <li>If a single 1 is rolled, then turn ends and score for that turn is zero.</li>
-        <li>In case two 1’s are rolled then turn ends and score for that turn as well as overall score is reset to zero.</li>
-    </ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Project Pig Dice</title>
+        <link href="./css/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class =model>
+            <div class="container">
+                <div id="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="well" id="top">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h2>Pig Dice Game</h2> 
+                                </div>
+                                <!--Description of pig dice game-->
+                                <p>Pig dice game comes from family of jeopardy dice games. In jeopardy dice games players are allowed to go for bigger gains by taking a risk which also can result in not making any gain at all. The objective of Pig dice game is reach to a certain score before your opponents. Normally the game is played for a score of 100.</p>
+                                <!--image-->
+                                <img src="./image/N01803_big.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!--how to play game-->
+                    <div class="col-sm-12 col-md-6">
+                        <div class="well" id="top">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h2>Game Play</h2>
+                                </div>
+                                <p>Pig dice game is played with a single six-sided die and players are allowed to make any number of rolls in each turn.</p>
+                                <p>After each roll the dice value is added to their score for that turn. </p>
+                                <p>After each roll player can decide whether to stop rolling and claim the total turn score or continue rolling</p>.
+                                <p>If they roll a 1 then they lose all points scored in a particular turn and turn is then passed to the opponent.</p> 
+                                <p>This has no impact on their overall score. If players decide to stop rolling,</p> 
+                                <p>they get the points scored so far which is added to their overall score.</p>
+                                <p>The first player to score 100 points (or any other predetermined score at the beginning of the game) wins the game.</p>
+                                <p><strong>Two-dice Pig:</strong>Two-dice Pig is played with two six-sided dice and has following rules</p>
+                                <ul>
+                                    <li>Roll as many times. If none of a dice is a 1, then total is added for the current turn score.</li>
+                                    <li>If a single 1 is rolled, then turn ends and score for that turn is zero.</li>
+                                    <li>In case two 1’s are rolled then turn ends and score for that turn as well as overall score is reset to zero.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="button" name="button" id="play"><a href="index2.html">Go to play</a></button>
+            </div>
+        </div>
+    </body>
 </html>
