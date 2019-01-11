@@ -144,4 +144,60 @@ function Player(name) {
       }
     });
   
+    /// PLAYER TWO
+  
+    //Roll Button Click Event
+  
+    $("#player-two-roll").click(function(event) {
+      event.preventDefault();
+      var sixSidedDiceRoll = sixSidedDice.roll();
+      playerTwo.setLastRoll(sixSidedDiceRoll);
+      playerTwo.resetRunningTotalOnOne(sixSidedDiceRoll);
+      playerTwo.addRollToArray(sixSidedDiceRoll);
+      playerTwo.sumOfRolls();
+  
+      $("#player-two-running").html("<h1 class='running-total'>" + playerTwo.turnRunningScore + "</h1>");
+  
+      //Change image based on dice roll, AND swith player turn
+      if (sixSidedDiceRoll === 1) {
+        $("#dice-pic").attr("src", "image/one.png");
+        var playerOneTurn = true;
+        if (playerOneTurn) {
+           $("#player-one-buttons").show();
+           $("#player-two-buttons").hide();
+        } else {
+          $("#player-two-buttons").show();
+          $("#player-one-buttons").hide();
+        }
+      } else if (sixSidedDiceRoll === 2) {
+        $("#dice-pic").attr("src", "image/two.png");
+      } else if (sixSidedDiceRoll === 3) {
+        $("#dice-pic").attr("src", "image/three.png");
+      } else if (sixSidedDiceRoll === 4) {
+        $("#dice-pic").attr("src", "image/four.png");
+      } else if (sixSidedDiceRoll === 5) {
+        $("#dice-pic").attr("src", "image/five.png");
+      } else if (sixSidedDiceRoll === 6) {
+        $("#dice-pic").attr("src", "image/six.png");
+      }
+    });
+  
+  // Player Two animationEnd
+  $("#player-two-roll").on("click", function() {
+    var animationName = 'animated tada';
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+    $("#dice-pic").addClass(animationName).one(animationEnd, function() {
+      $(this).removeClass(animationName);
+    });
+  });
+  
+  //Player Two Stay Button Click Event
+  $("#player-two-stay").click(function(event) {
+    event.preventDefault();
+  
+    // What happens when a user clicks the stay button
+    playerTwo.stayTurn();
+    $("#player-two-running").html("<h1 class='running-total'>" + playerTwo.turnRunningScore + "</h1>");
+    $("#player-two-score").html("<h1 class='total-score'>" + playerTwo.totalBankedScore + "</h1>");
+  
     
