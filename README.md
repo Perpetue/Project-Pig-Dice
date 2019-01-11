@@ -24,12 +24,12 @@ The first player to score 100 or more points wins.
  | Player can end turn by "staying", and turn total is added to banked total        | 12      | 27         |
  | First player to reach 100, wins     | 9      | 100 - You win!       |
 ## USER STORY
-    As a user, I want to roll the dice when it's my turn to play in the game.
-    As a user, I want to see the score I get for each roll of the dice I make in the game.
-    As a user, I want to see my cumulative score for each round I play in the game. For example, if I roll the scores 2-6-3 consecutively, I should see my end score as 11.
-    As a user, I want the option to hold my score when I'm satisfied with the points I've gained in a round of playing. The game should, therefore, add my held score to my most recent cumulative score.
-    As a user, I want to be alerted when my dice rolls on number 1. This will help me know that I can't roll the dice until the alternate player takes their round.
-    As a user, I need a way to know which player has won the game, which means they have scored 100 points before the alternate player.
+As a user, I want to roll the dice when it's my turn to play in the game.
+As a user, I want to see the score I get for each roll of the dice I make in the game.
+As a user, I want to see my cumulative score for each round I play in the game. For example, if I roll the scores 2-6-3 consecutively, I should see my end score as 11.
+As a user, I want the option to hold my score when I'm satisfied with the points I've gained in a round of playing. The game should, therefore, add my held score to my most recent cumulative score.
+As a user, I want to be alerted when my dice rolls on number 1. This will help me know that I can't roll the dice until the alternate player takes their round.
+As a user, I need a way to know which player has won the game, which means they have scored 100 points before the alternate player.
 ## Link to live site on GitHub Pages
     https://github.com/Perpetue/Project-Pig-Dice
 
