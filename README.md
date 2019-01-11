@@ -31,10 +31,10 @@ As a user, I want the option to hold my score when I'm satisfied with the points
 As a user, I want to be alerted when my dice rolls on number 1. This will help me know that I can't roll the dice until the alternate player takes their round.
 As a user, I need a way to know which player has won the game, which means they have scored 100 points before the alternate player.
 ## Link to live site on GitHub Pages
-    https://github.com/Perpetue/Project-Pig-Dice
+https://github.com/Perpetue/Project-Pig-Dice
 
 #### Support and contact details
-   Please feel free to contact muperpety@gmail.com if you have any issues or questions, ideas or concerns.
+Please feel free to contact muperpety@gmail.com if you have any issues or questions, ideas or concerns.
 # Technologies Used
 **Main Languages used:**
 * HTML
