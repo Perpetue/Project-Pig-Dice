@@ -200,4 +200,24 @@ function Player(name) {
     $("#player-two-running").html("<h1 class='running-total'>" + playerTwo.turnRunningScore + "</h1>");
     $("#player-two-score").html("<h1 class='total-score'>" + playerTwo.totalBankedScore + "</h1>");
   
-    
+    // Win condition
+    if (playerTwo.totalBankedScore === 100) {
+      $("#winner").show();
+      $("#winner").html("<h1 class='total-score'>" + "You win!!!" + "</h1>");
+    } else {
+      $("#winner").text("");
+    }
+  
+    var playerOneTurn = true;
+  
+    // Toggle between players
+      if (playerOneTurn) {
+         $("#player-one-buttons").show();
+         $("#player-two-buttons").hide();
+      } else {
+        $("#player-two-buttons").show();
+        $("#player-one-buttons").hide();
+      }
+    });
+  });
+  
